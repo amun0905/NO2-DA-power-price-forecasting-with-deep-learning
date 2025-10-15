@@ -1,6 +1,6 @@
 # Forecasting Day-Ahead Electricity Prices in Norwegian NO2 Bidding Zone Using Deep Learning
 
-This project explores the use of deep learning models to forecast day-ahead electricity prices in Norway's NO2 bidding zone—a region with a highly renewable, hydro-dominated power system. The goal is to improve prediction accuracy in a volatile and interconnected market by comparing advanced machine learning and deep learning models.
+This project explores the use of deep learning models to forecast day-ahead electricity prices in Norway's NO2 bidding zone - a region with a highly renewable, hydro-dominated power system. The goal is to improve prediction accuracy in a volatile and interconnected market by comparing advanced machine learning and deep learning models.
 
 ## Project Overview
 
