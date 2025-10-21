@@ -1,6 +1,6 @@
 # Forecasting Day-ahead Electricity Prices in the Norwegian NO2 Bidding Zone using Deep Learning
 
-This repository contains code for forecasting NO2 Day-ahead power prices using publicly available data from ENTSO-E and Open-Meteo, with deep learning models. The code was initially written as a jupyter notebook but has been converted to .py file since the file size was too large to upload to Github. 
+This repository contains code for forecasting NO2 Day-ahead power prices using publicly available data from ENTSO-E and Open-Meteo, with deep learning models.
 
 ---
 
