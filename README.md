@@ -17,7 +17,7 @@ This project compares traditional machine learning and deep learning approaches 
 
 ## Data Sources
 
-The dataset was built using data collected from **ENTSO-E Transparency Platform** and **Open-Meteo API**.
+The dataset was built using data collected from ENTSO-E Transparency Platform and Open-Meteo API.
 
 ### **ENTSO-E Data**
 - **Load Forecasts:** For NO2 and neighboring zones (NO1, NO5, DK, NL, DE_LU)  
@@ -55,8 +55,8 @@ All data were resampled to an hourly resolution (October 2023 – March 2025). W
 | TCN | Temporal Convolutional Network | `TensorFlow / Keras` |
 
 All deep learning models predict day-ahead prices 24 hours ahead, using historical sequences as input.  
-Regularization methods such as **dropout** and **L2 penalties** were applied to prevent overfitting.  
-Hyperparameters (e.g., learning rate, sequence length, batch size) were tuned using **time-series cross-validation**.
+Regularization methods such as dropout and L2 penalties were applied to prevent overfitting.  
+Hyperparameters (e.g., learning rate, sequence length, batch size) were tuned using time-series cross-validation.
 
 ---
 
