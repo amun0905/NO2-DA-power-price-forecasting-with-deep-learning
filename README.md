@@ -54,7 +54,7 @@ All data were resampled to an hourly resolution (October 2023 – March 2025). W
 | GRU | Gated Recurrent Unit | `TensorFlow / Keras` |
 | TCN | Temporal Convolutional Network | `TensorFlow / Keras` |
 
-All deep learning models predict day-ahead prices 24 hours ahead, using historical sequences as input.  
+All the models predict Day-ahead prices using data available before gate closure.  
 Regularization methods such as dropout and L2 penalties were applied to prevent overfitting.  
 Hyperparameters (e.g., learning rate, sequence length, batch size) were tuned using time-series cross-validation.
 
@@ -77,8 +77,8 @@ Hyperparameters (e.g., learning rate, sequence length, batch size) were tuned us
 
 ## Insights
 
-- Deep learning architectures significantly outperform XGBoost in all metrics.  
-- Vanilla RNN offers the best performance — proving that simpler architectures can generalize better on moderate-sized datasets.  
-- GRU achieves near-equivalent accuracy with fewer parameters.  
+- Deep learning architectures significantly outperformed XGBoost in all metrics.  
+- Vanilla RNN offered the best performance — demonstrating that simpler architectures can generalize better on moderate-sized datasets.  
+- GRU achieved near-equivalent accuracy with fewer parameters.  
 - LSTM struggled with overfitting on limited data, while TCN tended to overestimate prices during volatility peaks.  
 - Residual analysis showed mild heteroskedasticity and greater variance during high-price periods.
